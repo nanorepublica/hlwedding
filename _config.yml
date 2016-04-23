@@ -1,0 +1,118 @@
+# Site settings
+title: Wedding!
+email: wedding@hollyandandrew.co.uk
+url: https://hollyandandrew.co.uk
+description: "Holly Phillips and Andrew Miller are getting Married!"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#F9EACC'
+  # primary-dark: '#F4E2BE'
+  links: '#62892A'
+
+# Footer settings
+footer: Holly & Andy
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# social:
+#   - title: twitter
+#     url: https://twitter.com/SBootstrap
+#   - title: facebook
+#     url: https://facebook.com
+
+# page-sections:
+#     # - name: register
+#     #   menu: false
+#     #   title: Address Book
+#     - name: accommodation
+#       menu: true
+#       title: Accommodation
+#     - name: how_long
+#       menu: true
+#       title: How Long?
+#     - name: contact
+#       menu: true
+#       title: contact us
+#     - name: map
+#       menu: true
+#       title: Where?
+#
+
+site-map:
+    home:
+        title: home
+        sections:
+            - about
+            - how_long
+            - contact
+            - map
+        menu:
+            - the-day
+            - accommodation
+            - rsvp
+            - giftlist
+    about:
+        title: Welcome!
+    how_long:
+        title: How Long?
+    contact:
+        title: Contact Us
+    map:
+        title: Where?
+    ceremony:
+        title: Ceremony
+        menu:
+            - home
+            - the-day
+            - accommodation
+            - rsvp
+            - giftlist
+    reception:
+        title: Reception
+        menu:
+            - home
+            - the-day
+            - accommodation
+            - rsvp
+            - giftlist
+    the-day:
+        title: The Big Day
+        submenu:
+            - ceremony
+            - reception
+        menu:
+            - home
+            - the-day
+            - accommodation
+            - rsvp
+            - giftlist
+    accommodation:
+        title: Accommodation
+        menu:
+            - home
+            - the-day
+            - accommodation
+            - rsvp
+            - giftlist
+    rsvp:
+        title: RSVP
+        menu:
+            - home
+            - the-day
+            - accommodation
+            - rsvp
+            - giftlist
+    giftlist:
+        title: Gift List
+        menu:
+            - home
+            - the-day
+            - accommodation
+            - rsvp
+            - giftlist
+
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty

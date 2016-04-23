@@ -1,0 +1,14 @@
+gem install jekyll html-proofer
+
+git checkout -b deploy-$TRAVIS_BRANCH
+
+if [[ $TRAVIS_BRANCH == 'master' ]]; then
+    jekyll build && htmlproof ./_site
+else
+    jekyll build --drafts && htmlproof ./_site
+fi
+
+git config user.email "travisci@hollyandandrew.co.uk"
+git config user.name "Travis CI"
+git add -f _site
+git commit -m "Deploy commit ${TRAVIS_COMMIT} with build ${TRAVIS_BUILD_NUMBER}"
