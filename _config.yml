@@ -1,8 +1,8 @@
 # Site settings
 title: Wedding!
 email: wedding@hollyandandrew.co.uk
-url: https://hollyandandrew.co.uk
-description: "Holly Phillips and Andrew Miller are getting Married!"
+url: https://hlwedding.akmiller.co.uk
+description: "Lizzie Coyle and Hamish Henderson are getting Married!"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -11,7 +11,7 @@ color:
   links: '#62892A'
 
 # Footer settings
-footer: Holly & Andy
+footer: Lizzie & Hamish
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # social:
