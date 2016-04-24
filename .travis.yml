@@ -24,7 +24,7 @@ branches:
 addons:
   ssh_known_hosts: 
    - akmiller.co.uk
-   - 176.58.111.71
+   - "176.58.111.71"
 
 env:
   global:
