@@ -18,3 +18,29 @@
       menu: <true|false> # should this section appear in the top menu?
       title: <nice name for the section>
     ```
+
+
+# meeting
+* DNS Setup lizzieandhamish.co.uk
+* github access
+* jekyll & my additions
+* design
+    * fonts
+    * pictures
+    * colours
+* information to add - DIY easier?
+* zapier, typeform,
+* mailgun
+
+
+* git commands:
+    * git add .
+    * git commit -m "message here"
+    * git push
+    * git checkout <dev|master>
+    * git merge <other branch>
+    * git push
+
+    * occasionally - git pull
+
+html & css - mozilla developer network - mdn.net
