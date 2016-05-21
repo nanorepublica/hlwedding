@@ -1,8 +1,8 @@
 # Site settings
 title: Wedding!
-email: lizzieandhamish@gmail.com
-url: https://dev.lizzieandhamish.co.uk
-description: "Lizzie Coyle and Hamish Henderson are getting Married!"
+email: wedding@hollyandandrew.co.uk
+url: https://hollyandandrew.co.uk
+description: "Holly Phillips and Andrew Miller are getting Married!"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -11,7 +11,8 @@ color:
   links: '#62892A'
 
 # Footer settings
-footer: Lizzie & Hamish
+footer: Holly & Andy
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # social:
@@ -40,6 +41,10 @@ footer: Lizzie & Hamish
 
 site-map:
     home:
+        header:
+          title: 06 . 08 . 2016
+          subtitle: Save the Date
+          subsubtitle: Holly Phillips & Andrew Miller
         title: home
         sections:
             - about
@@ -60,6 +65,10 @@ site-map:
     map:
         title: Where?
     ceremony:
+        header:
+          title: Ceremony
+          subtitle: "&nbsp;"
+          subsubtitle: "&nbsp;"
         title: Ceremony
         menu:
             - home
@@ -68,7 +77,7 @@ site-map:
             - rsvp
             - giftlist
     reception:
-        title: Reception
+        title: Evening
         menu:
             - home
             - the-day
@@ -96,6 +105,7 @@ site-map:
             - giftlist
     rsvp:
         title: RSVP
+        path: rsvp
         menu:
             - home
             - the-day
@@ -116,3 +126,8 @@ site-map:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-babel
+
+# babel_js_extensions: 'es6, babel, jsx'

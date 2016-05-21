@@ -1,18 +1,27 @@
     <!-- Intro Header -->
-    <header class="intro">
+    <header class="intro intro-{{ page.key }}">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">01 . 10 . 2016</h1>
-                        <p class="sub-head">Save the Date</p>
-                        <p class="intro-text">Lizzie &amp; Hamish Henderson</p>
-                        <a href="#{{ site.site-map["home"].sections[0] }}" class="btn btn-circle page-scroll">
+                    <div class="col-md-{{ page.header.width|default:8 }} col-md-offset-{{ page.header.offset|default:2 }}">
+
+                        <h1 class="brand-heading">{{ page.header.title }}</h1>
+                        <p class="sub-head">{{ page.header.subtitle }}</p>
+                        <p class="intro-text">{{ page.header.subsubtitle }}</p>
+                        {% if page.key == "home" %}
+                        <a href="#{{ site.site-map[page.key].sections[0] }}" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
+                        {% elsif page.layout == "detail" %}
+                        <a href="#anchor" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    {% if page.bunting|default: true %}
     <div id="bunting"></div>
+    {% endif %}

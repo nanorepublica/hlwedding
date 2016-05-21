@@ -1,6 +1,10 @@
 ---
-layout: content
+layout: detail
 key: accommodation
+header:
+  title: Accommodation
+  offset: 1
+  width: 10
 ---
 # Accommodation Options in Cambridge
 
@@ -45,6 +49,10 @@ Below is a list of other room options within Cambridge, prices below are based o
           <tr>
             <td><a href="http://www.booking.com/hotel/gb/acornguesthouse.en-gb.html?checkin=2016-08-06;checkout=2016-08-07;group_adults=2">Acron Guesthouse</a></td>
             <td>£80</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.yha.org.uk/hostel/cambridge">Cambridge YHA</a></td>
+            <td>From £16</td>
           </tr>
         </table>
     </div>
