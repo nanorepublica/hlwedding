@@ -245,7 +245,7 @@ function update() {
     var units = countdown.YEARS | countdown.MONTHS | countdown.WEEKS | countdown.DAYS;
     countdown.setLabels(null, null, ' and ')
     // countdown.setLabels(null, null, '<br /> and ')
-    var start = new Date(2016, 7, 6),
+    var start = new Date(2016, 9, 1),
         ts = countdown(null, start, units);
 
     var counter = $('#countdown');
